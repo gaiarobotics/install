@@ -1,0 +1,6 @@
+sudo apt install -y python-pip python-dev python-virtualenv
+mkdir ~/tensorflow  # somewhere to work out of
+cd ~/tensorflow
+virtualenv --system-site-packages venv
+source ~/tensorflow/venv/bin/activate
+pip install -U tensorflow-gpu
